@@ -1,0 +1,15 @@
+.history{
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+.history thead{
+    background-color: blueviolet;
+    height: 30px;
+}
+.history td{
+    text-transform: capitalize;
+}
+.history tr{
+    height: 30px;
+}
