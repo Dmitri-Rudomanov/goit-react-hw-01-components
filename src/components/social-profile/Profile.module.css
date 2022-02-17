@@ -1,7 +1,12 @@
 .profile {
-    width: 200px;
-    height: 300px;
+    display: inline-block;
     padding:20px ;
+    box-shadow: 4px 4px 4px greenyellow;
+    border: 2px solid greenyellow;
+    transition: all 0.3s ease 0s;
+}
+.profile:hover {
+    box-shadow: 7px 7px 7px greenyellow;
 }
 .description {
 
@@ -16,8 +21,11 @@
     font-weight: 700;
 }
 .tag {
+    color: royalblue;
+    font-size: 15px;
 }
 .location {
+    font-weight: 600;
 }
 .stats {
     padding: 0;

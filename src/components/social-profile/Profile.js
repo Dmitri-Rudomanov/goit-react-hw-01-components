@@ -36,7 +36,7 @@ export default function Profile({
       <span className={s.quantity}>{likes}</span>
     </li>
   </ul>
-</div>
+    </div>
     )
 }
 
