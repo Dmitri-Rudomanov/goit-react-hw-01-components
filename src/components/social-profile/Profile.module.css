@@ -1,0 +1,38 @@
+.profile {
+    width: 200px;
+    height: 300px;
+    padding:20px ;
+}
+.description {
+
+}
+.avatar {
+    width: 200px;
+    height: 250px;
+
+}
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
+.tag {
+}
+.location {
+}
+.stats {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+.label {
+    display: inline-block;
+    margin-bottom: 15px;
+    
+}
+.label:last-child {
+    margin-bottom: 0px;
+
+}
+.quantity {
+    margin: 0 0 0 5px;
+}
