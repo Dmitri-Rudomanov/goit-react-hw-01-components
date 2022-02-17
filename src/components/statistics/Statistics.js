@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import s from "./Statistics.module.css"
 
 export default function Statistics({ title, stats }) { 
@@ -26,4 +26,14 @@ function getRandomColor() {
     color += letters[Math.floor(Math.random() * 16)];
   }
   return color;
+}
+
+Statistics.propTypes = {
+    title: PropTypes.string,
+    stats: PropTypes.arrayOf(
+        PropTypes.shape({
+            label: PropTypes.string.isRequired,
+            percentage:PropTypes.number.isRequired,
+        })
+    )
 }
